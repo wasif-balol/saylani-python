@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Saylani AI course</h1>
+    <h1>I am header</h1>
+    <a href="{{ url_for('home')}}">Index</a>
+    <a href="{{ url_for('about')}}">About</a>
+{% block body %}
+{% endblock %}
+<h1>I am Footer</h1>
+
+</body>
+</html>
